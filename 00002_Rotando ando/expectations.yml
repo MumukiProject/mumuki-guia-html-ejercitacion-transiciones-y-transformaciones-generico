@@ -1,0 +1,26 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.ejercicio:hover .cuadrado:first-child
+  inspection: DeclaresStyle:transform:rotate(90deg)
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.ejercicio:hover .cuadrado:nth-child(2)
+  inspection: DeclaresStyle:transform:rotate(180deg)
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.ejercicio:hover .cuadrado:nth-child(3)
+  inspection: DeclaresStyle:transform:rotate(270deg)
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.ejercicio:hover .cuadrado:last-child
+  inspection: DeclaresStyle:transform:rotate(360deg)
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.ejercicio:hover .cuadrado:first-child
+  inspection: DeclaresStyle:transition-duration:0.3s
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.ejercicio:hover .cuadrado:nth-child(2)
+  inspection: DeclaresStyle:transition-duration:0.3s
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.ejercicio:hover .cuadrado:nth-child(2)
+  inspection: DeclaresStyle:transition-duration:0.3s
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.ejercicio:hover .cuadrado:last-child
+  inspection: DeclaresStyle:transition-duration:0.3s

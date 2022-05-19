@@ -1,0 +1,1 @@
+> Agregá los estilos necesarios de manera tal que al hacer `hover` sobre los cuadrados :black_large_square:, los pares escalen un factor de `1.2` y los impares un factor de `0.8` tanto vertical como horizontalmente, con una duración de `0.3s`.

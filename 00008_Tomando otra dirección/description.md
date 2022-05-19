@@ -1,0 +1,1 @@
+> Replicá el efecto de `hover` del botón _Editar_, haciendo que el ícono aparezca desde arriba para el botón de _Comprar_ y desde la izquierda para el botón de _Volver_.

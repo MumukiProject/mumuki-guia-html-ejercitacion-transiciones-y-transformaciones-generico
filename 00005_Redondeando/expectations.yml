@@ -1,0 +1,26 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.ejercicio:hover .cuadrado:first-child
+  inspection: DeclaresStyle:border-radius:50%
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.ejercicio:hover .cuadrado:nth-child(2)
+  inspection: DeclaresStyle:border-radius:50%
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.ejercicio:hover .cuadrado:nth-child(3)
+  inspection: DeclaresStyle:border-radius:50%
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.ejercicio:hover .cuadrado:last-child
+  inspection: DeclaresStyle:border-radius:50%
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.ejercicio:hover .cuadrado:first-child
+  inspection: DeclaresStyle:transition-duration:0.3s
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.ejercicio:hover .cuadrado:nth-child(2)
+  inspection: DeclaresStyle:transition-duration:0.6s
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.ejercicio:hover .cuadrado:nth-child(3)
+  inspection: DeclaresStyle:transition-duration:0.9s
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.ejercicio:hover .cuadrado:last-child
+  inspection: DeclaresStyle:transition-duration:1.2s

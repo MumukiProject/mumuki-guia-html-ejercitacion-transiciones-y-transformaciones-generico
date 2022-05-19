@@ -1,0 +1,29 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.ejercicio-8 .boton-2 .texto-boton
+  inspection: DeclaresStyle:right:0
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.ejercicio-8 .boton-2 .texto-boton
+  inspection: DeclaresStyle:bottom:0
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.ejercicio-8 .boton-2 .icono-boton
+  inspection: DeclaresStyle:right:0
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.ejercicio-8 .boton-2:hover .icono-boton
+  inspection: DeclaresStyle:top:0
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.ejercicio-8 .boton-3 .icono-boton
+  inspection: DeclaresStyle:top:0
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.ejercicio-8 .boton-3 .icono-boton
+  inspection: DeclaresStyle:left:-100%
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.ejercicio-8 .boton-3:hover .icono-boton
+  inspection: DeclaresStyle:left:0
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.ejercicio-8 .boton-3 .texto-boton
+  inspection: DeclaresStyle:top:0
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.ejercicio-8 .boton-3 .texto-boton
+  inspection: DeclaresStyle:right:0

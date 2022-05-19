@@ -1,0 +1,1 @@
+Para convertir en círculos los cuadrados, debemos utilizar un `border-radius` de `50%`.
