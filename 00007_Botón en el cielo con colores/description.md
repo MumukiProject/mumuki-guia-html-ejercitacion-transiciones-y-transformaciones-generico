@@ -1,1 +1,1 @@
-> Agregá los estilos necesarios para que al hacer `hover` sobre el botón cambie el color de fondo del mismo por `#EC407A` y del texto por `#000000` , y que al presionarlo cambie su color de fondo por `#E91E63`, con una transición de `0.3s`.
+> Agregá los estilos necesarios para que al hacer `hover` sobre el botón cambie el color de fondo del mismo por `#1A94A3` y del texto por `#FF9000` , y que al presionarlo cambie su color de fondo por `#17687D`, con una transición de `0.3s`.

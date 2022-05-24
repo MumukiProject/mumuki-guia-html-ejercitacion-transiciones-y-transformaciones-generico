@@ -2,16 +2,16 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.boton:hover
-  inspection: DeclaresStyle:background-color:#EC407A
+  inspection: DeclaresStyle:background-color:#1A94A3
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.boton:hover
   inspection: DeclaresStyle:transition-duration:0.3s
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.boton:active
-  inspection: DeclaresStyle:background-color:#E91E63
+  inspection: DeclaresStyle:background-color:#17687D
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.boton:active
   inspection: DeclaresStyle:transition-duration:0.3s
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.boton:hover
-  inspection: DeclaresStyle:color:#000000
+  inspection: DeclaresStyle:color:#FF9000
